@@ -49,16 +49,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#statement-section" className="hover:text-amber-300 transition-colors">
-                  Artist Philosophy & Bio
-                </a>
-              </li>
-              <li>
-                <a href="#tools-section" className="hover:text-amber-300 transition-colors">
-                  Drafting Tools & Paper
-                </a>
-              </li>
-              <li>
                 <a href="#commission-section" className="hover:text-amber-300 transition-colors">
                   Commission Inquiries
                 </a>

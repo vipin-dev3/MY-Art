@@ -25,17 +25,12 @@ Built with **React 19**, **Vite**, **Tailwind CSS v4**, and **Framer Motion**.
 - **Category Tabs**: *All Collections*, *Wildlife & Realism*, *Divine & Character*, *Mythic & Anime*, *Samurai & Gestures*.
 - **Smooth Pill Animations**: Fluid Framer Motion tab transitions with dynamic item count badges.
 
-### 4. Artist Bio & Draftsman's Arsenal
-- Classical drafting philosophy, artist statement, and credentials.
-- Interactive showcase of tactile mediums: *Staedtler Mars Lumograph (2H-9B)*, *Nitram Willow Charcoal*, *Arches 300gsm Cotton Rag*, *Sennelier Soft Pastels*, and *Japanese Sumie Ink*.
-- Curated exhibition timeline.
-
-### 5. Custom Drawing Commission & Collaboration
+### 4. Custom Drawing Commission & Collaboration
 - Request bespoke drawing commissions or project collaborations.
 - Select preferred drawing scale, framing, and submit reference photos or artistic vision.
 - Celebratory gold confetti explosion upon submission.
 
-### 6. Atelier Ambient Soundscape (Self-Contained)
+### 5. Atelier Ambient Soundscape (Self-Contained)
 - Procedural audio synthesizer built directly on the **Web Audio API**—no external audio files required.
 - Generates gentle pencil sketching textures and warm acoustic studio resonance.
 
@@ -66,7 +61,6 @@ ART/
 ├── src/
 │   ├── components/
 │   │   └── ui/
-│   │       ├── ArtistBio.jsx         # Statement, physical tools & exhibition history
 │   │       ├── ArtworkDetailModal.jsx# Studio Zoom Viewer with pan, zoom & 3x loupe
 │   │       ├── CategoryFilter.jsx    # Framer Motion animated category filter bar
 │   │       ├── CommissionSection.jsx # Custom drawing request form with confetti

@@ -50,20 +50,6 @@ export default function Navbar({
             <span>Exhibition Archive</span>
           </button>
           <button
-            onClick={() => scrollToSection('statement-section')}
-            className="hover:text-amber-300 transition-colors flex items-center gap-1.5 cursor-pointer"
-          >
-            <User className="w-3.5 h-3.5 text-zinc-500" />
-            <span>Artist Statement</span>
-          </button>
-          <button
-            onClick={() => scrollToSection('tools-section')}
-            className="hover:text-amber-300 transition-colors flex items-center gap-1.5 cursor-pointer"
-          >
-            <Palette className="w-3.5 h-3.5 text-zinc-500" />
-            <span>Drawing Mediums</span>
-          </button>
-          <button
             onClick={() => scrollToSection('commission-section')}
             className="hover:text-amber-300 transition-colors flex items-center gap-1.5 cursor-pointer"
           >
@@ -122,18 +108,6 @@ export default function Navbar({
             className="block w-full text-left text-sm uppercase tracking-widest text-zinc-300 hover:text-amber-300 py-1"
           >
             Exhibition Archive
-          </button>
-          <button
-            onClick={() => scrollToSection('statement-section')}
-            className="block w-full text-left text-sm uppercase tracking-widest text-zinc-300 hover:text-amber-300 py-1"
-          >
-            Artist Statement
-          </button>
-          <button
-            onClick={() => scrollToSection('tools-section')}
-            className="block w-full text-left text-sm uppercase tracking-widest text-zinc-300 hover:text-amber-300 py-1"
-          >
-            Drawing Tools & Mediums
           </button>
           <button
             onClick={() => scrollToSection('commission-section')}

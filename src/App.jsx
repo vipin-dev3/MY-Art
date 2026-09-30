@@ -4,7 +4,6 @@ import Navbar from './components/ui/Navbar';
 import CategoryFilter from './components/ui/CategoryFilter';
 import GalleryGrid from './components/ui/GalleryGrid';
 import ArtworkDetailModal from './components/ui/ArtworkDetailModal';
-import ArtistBio from './components/ui/ArtistBio';
 import CommissionSection from './components/ui/CommissionSection';
 import Footer from './components/ui/Footer';
 import { Sparkles, Search, Contrast, Eye } from 'lucide-react';
@@ -189,9 +188,6 @@ export default function App() {
             )}
           </div>
         </section>
-
-        {/* Artist Bio, Philosophy & Physical Mediums */}
-        <ArtistBio />
 
         {/* Custom Commission & Inquiries Section */}
         <CommissionSection
