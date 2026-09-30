@@ -134,7 +134,7 @@ export default function App() {
             </h1>
 
             <p className="text-xs sm:text-base text-zinc-400 max-w-2xl mx-auto font-serif-elegant italic leading-relaxed">
-              Explore 25 original works in fine graphite, willow charcoal, Japanese manga ink, and devotional color.
+              Explore 26 original works in fine graphite, willow charcoal, Japanese manga ink, and devotional color.
               Move your cursor over any drawing to cast an ambient spotlight beam, or click to inspect and download in master resolution.
             </p>
 

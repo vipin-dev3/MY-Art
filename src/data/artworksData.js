@@ -561,6 +561,28 @@ export const ARTWORKS_DATA = [
     availability: 'Downloadable Fine Art',
     tags: ['Cinema Format', '16:9', 'Landscape', 'Panoramic'],
     featured: true
+  },
+  {
+    id: 'art-vip-14',
+    title: 'Monolithic Descent: The Dragon Totem (Vip XIV)',
+    slug: 'dragon-totem-vip-14',
+    category: 'digital-concept',
+    categoryName: 'Mythic & Anime',
+    medium: 'High-Density Ink & Carbon Shading on Vertical Master Scroll',
+    dimensions: '30 × 90 cm (Monumental Scroll Format)',
+    year: '2024',
+    orientation: 'portrait',
+    aspectRatio: 0.449,
+    image: '/artworks/optimized/Vip (14).webp',
+    highResImage: '/artworks/Vip (14).png',
+    originalFilename: 'Vip (14).png',
+    accentColor: '#8b5cf6',
+    story: 'An elongated vertical composition depicting the coiled descend of an ancient scaled dragon through celestial mists. The narrow scroll format accentuates the sinuous anatomical power and aerodynamic serpentine velocity.',
+    technique: 'Continuous vertical perspective, multi-tonal carbon washes, precision claw and scale texturing.',
+    estimatedHours: '48 hours',
+    availability: 'Downloadable Fine Art',
+    tags: ['Scroll', 'Dragon', 'Mythology', 'Masterwork', 'Vertical Format'],
+    featured: true
   }
 ];
 
@@ -610,7 +632,7 @@ export const ARTIST_PROFILE = {
     }
   ],
   stats: [
-    { label: 'Original Artworks', value: '25' },
+    { label: 'Original Artworks', value: '26' },
     { label: 'Series Collections', value: '5' },
     { label: 'Mediums Mastered', value: '8' },
     { label: 'Average Atelier Hours', value: '34h' }

@@ -1,6 +1,6 @@
 # 🏛️ AVATAR — Hand Drawing & High-Resolution Master Archive
 
-A clean, responsive fine art exhibition website designed specifically to showcase and distribute a collection of 25 original hand drawings, anime ink studies, wildlife graphite portraits, and mythic character art.
+A clean, responsive fine art exhibition website designed specifically to showcase and distribute a collection of 26 original hand drawings, anime ink studies, wildlife graphite portraits, and mythic character art.
 
 Built with **React 19**, **Vite**, **Tailwind CSS v4**, and **Framer Motion**.
 
