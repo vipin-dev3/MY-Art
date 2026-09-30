@@ -11,7 +11,27 @@ export const ARTWORK_CATEGORIES = [
   { id: 'quick-sketches', label: 'Samurai & Gestures', description: 'Bushido blade postures, rapid action lines, and spontaneous sketchbook captures' },
 ];
 
-export const ARTWORKS_DATA = [
+/**
+ * Base path resolver supporting both root domain deployments (Vercel, Netlify, custom domain)
+ * and repository subfolder deployments (GitHub Pages at /MY-Art/).
+ */
+const getBaseUrl = () => {
+  if (typeof window !== 'undefined' && window.location.pathname.startsWith('/MY-Art')) {
+    return '/MY-Art';
+  }
+  const base = import.meta.env.BASE_URL || '/';
+  return base === '/' ? '' : base.replace(/\/$/, '');
+};
+
+const BASE_PREFIX = getBaseUrl();
+const resolveAsset = (path) => {
+  if (!path) return path;
+  if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:')) return path;
+  const clean = path.startsWith('/') ? path : `/${path}`;
+  return `${BASE_PREFIX}${clean}`;
+};
+
+const RAW_ARTWORKS_DATA = [
   {
     id: 'art-radha',
     title: 'Radha: The Divine Grace',
@@ -585,6 +605,12 @@ export const ARTWORKS_DATA = [
     featured: true
   }
 ];
+
+export const ARTWORKS_DATA = RAW_ARTWORKS_DATA.map(art => ({
+  ...art,
+  image: resolveAsset(art.image),
+  highResImage: resolveAsset(art.highResImage)
+}));
 
 export const ARTIST_PROFILE = {
   name: 'AVATAR',
